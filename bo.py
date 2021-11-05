@@ -337,7 +337,7 @@ def vraag2(gun, weaponlist):
         print ("mooi je weet waar je heen wilt nu de reis nog overleven")
         exit()
     else:
-        vraag1()
+        vraag2()
 
 def vraag1():
     answer1 = input("""je bent geboren en getogen in afghanistan, en je bent daar heel blij. je bent ongeveer 16 jaar oud en je hebt op school veel plezier.
