@@ -274,7 +274,7 @@ def vraag4(weaponlist, gun):
         print ("hij vertelde je de waarheid niet en terroriseerden jouw vliegtuig")
         
     else:
-        vraag1()
+        vraag4()
 
 
 def vraag3(weaponlist):
