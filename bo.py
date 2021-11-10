@@ -263,7 +263,7 @@ def vraag4(weaponlist, gun):
             if "nederland" in weaponlist:
                 vraag8(weaponlist)
         if liveordie == 1:
-            print("leven je bent veilig aangekomen in bestemmingsland als nederland() je bent in nederland aangekomen wat doe je?")
+            print("je leeft nog en bent aangekomen in bestemmingsland")
             if "nederland" in weaponlist:
                 vraag8(weaponlist)
         elif liveordie != 1:
@@ -274,7 +274,7 @@ def vraag4(weaponlist, gun):
         print ("hij vertelde je de waarheid niet en terroriseerden jouw vliegtuig")
         
     else:
-        vraag4()
+        vraag1()
 
 
 def vraag3(weaponlist):
@@ -294,7 +294,7 @@ def vraag3(weaponlist):
         vraag5(weaponlist)
     elif answer1 == "c":
         print("mooi je weet waar je heen wilt nu de reis nog overleven.")
-        vraag12(weaponlist, gun)
+        vraag12(weaponlist)
     else:
         vraag3()
 
@@ -337,7 +337,7 @@ def vraag2(gun, weaponlist):
         print ("mooi je weet waar je heen wilt nu de reis nog overleven")
         exit()
     else:
-        vraag2()
+        vraag1()
 
 def vraag1():
     answer1 = input("""je bent geboren en getogen in afghanistan, en je bent daar heel blij. je bent ongeveer 16 jaar oud en je hebt op school veel plezier.
